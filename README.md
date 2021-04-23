@@ -1,2 +1,3 @@
-# webinar-bicep
+# Bicep webinar demos
+
 Webinar about Bicep
