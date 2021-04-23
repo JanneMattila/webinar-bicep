@@ -10,8 +10,8 @@ Login-AzAccount
 Get-AzSubscription
 
 # *Explicitly* select your working context:
-# az account set --subscription AzureDev
-Select-AzSubscription -Subscription AzureDev
+# az account set --subscription DevMSDN
+Select-AzSubscription -Subscription DevMSDN
 
 # Show current context:
 # az account show -o table
