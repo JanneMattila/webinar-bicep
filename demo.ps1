@@ -19,3 +19,8 @@ Get-AzContext
 
 # Execute deployment:
 .\deploy.ps1 -ResourceGroupName "rg-bicep-webinar"
+
+# Deploy web app
+.\deploy.ps1 `
+  -Template webapp-customdomain-certificate\main.json `
+  -ResourceGroupName "rg-bicep-webapp-demo"
