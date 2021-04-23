@@ -1,5 +1,5 @@
 # Start build loop with nodemon:
-nodemon --exec "main.bicep" -e bicep
+nodemon --exec "bicep build main.bicep" -e bicep
 
 # Login to Azure:
 # az login
